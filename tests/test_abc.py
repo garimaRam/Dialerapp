@@ -12,3 +12,4 @@ class TestAddContact(BaseTest):
     def test_add_contact(self, first_name, last_name, company, phone):
         home = HomeScreen(self.driver)
         home.go_to_contact().create_new_contact(first_name, last_name, company, phone)
+#test
